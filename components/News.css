@@ -1,0 +1,73 @@
+.news {
+    margin: 4rem 6rem;
+    color: black;
+}
+
+.news h5 {
+    font-size: 2rem;
+   font-family:  'Source Sans Pro', 'Open Sans', sans-serif;
+}
+
+.news p {
+    font-family: 'Source Sans Pro', 'Open Sans', sans-serif;
+}
+
+.newscard {
+    margin-top: 3rem;
+    display: flex;
+    justify-content: space-between;
+    gap: 20px; /* Adjust the value to add the desired space between cards */
+    flex-wrap: wrap; /* Allow flex items to wrap to the next line if needed */
+}
+
+.n-card {
+    width: 32%;
+    text-align: start;
+    box-shadow: 0 5px 25px 2px rgba(0, 0, 0, 0.1);
+    border-radius: 7px;
+    cursor: pointer;
+    padding: 1rem 0.8rem;
+    z-index: 1;
+    background-color: rgba(255, 255, 255, 0.3); /* Semi-transparent white background */
+    backdrop-filter: blur(10px); /* Blur effect */
+}
+
+.n-image {
+    height: 200px;
+    overflow: hidden;
+    border-radius: 7px;
+}
+
+.n-image img {
+    width: 100%;
+    height: 100%;
+    transition: 0.3s ease-in-out;
+    border-radius: 7px;
+}
+
+.n-image:hover img {
+    transform: scale(1.3);
+}
+
+.n-card h4 {
+    font-size: 1.3rem;
+    padding: 0.9rem 0 0.2rem 0;
+}
+
+@media screen and (max-width: 850px) {
+    .news {
+        margin: 4rem 2rem;
+    }
+
+    .newscard {
+        margin-top: 3rem;
+        display: flex;
+        justify-content: space-between;
+        flex-direction: column;
+    }
+
+    .n-card {
+        width: 100%;
+        margin-bottom: 1.5rem;
+    }
+}

@@ -1,0 +1,33 @@
+/* Education.css */
+.education-container {
+    background-image: url('../assets/7330694.jpg'); /* Change the path to your background image */
+    background-size: cover;
+    background-position: center;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+  
+  .hero-mid {
+    height: 40%; /* Adjust height as a percentage of the viewport height */
+    margin-top: 60px; /* Adjust margin as a percentage of the viewport height */
+  }
+  
+  @media screen and (max-width: 768px) {
+    .hero-mid {
+      height: 30%; /* Adjust height for smaller screens */
+      margin-top: 8%; /* Adjust margin for smaller screens */
+    }
+  }
+  
+  @media screen and (max-width: 480px) {
+    .hero-mid {
+      height: 20%; /* Further adjust height for even smaller screens */
+      margin-top: 5%; /* Further adjust margin for even smaller screens */
+    }
+  }
+  
+  
+  
+  

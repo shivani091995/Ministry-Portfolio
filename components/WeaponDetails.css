@@ -1,0 +1,72 @@
+/* WeaponDetails.css */
+
+.weapon-details-container {
+  font-family: Arial, sans-serif;
+  border: 1px solid #ccc;
+  padding: 20px;
+  margin: 20px auto; /* Center the container horizontally */
+  border-radius: 5px;
+  max-width: 800px; /* Limit the width of the container */
+}
+
+.detail-card {
+  background-color: rgba(255, 255, 255, 0.5);
+  backdrop-filter: blur(10px);
+  padding: 20px;
+  border-radius: 10px;
+  margin-top: 50px; /* Shift the card down */
+}
+
+.details-grid {
+  display: flex; /* Use flex layout */
+  flex-direction: column; /* Arrange items vertically */
+  gap: 10px;
+  align-items: center; /* Center items horizontally */
+  background-color: rgba(255, 255, 255, 0.5); /* Transparent background */
+  backdrop-filter: blur(4px); /* Apply blur effect */
+  padding: 20px;
+  border-radius: 100px;
+  border: 1px solid rgba(0, 0, 0, 0.2); /* Add border */
+}
+
+
+.detail-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.detail-label {
+  font-weight: bold;
+  margin-right: 10px;
+}
+
+.detail-image {
+  text-align: center; /* Center the image */
+  margin-bottom: 20px;
+}
+
+.first {
+  background-color: #181D31;
+  color: #E6DDC4;
+  border: none;
+  padding: 10px 20px;
+  cursor: pointer;
+  border-radius: 5px;
+  margin-right: 10px;
+  
+}
+
+.second{
+  background-color: #181D31;
+  color: #E6DDC4;
+  border: none;
+  padding: 10px 20px;
+  cursor: pointer;
+  border-radius: 5px;
+  margin-right: 10px;
+  
+}
+.first, .second {
+  margin-bottom: 200px; /* Adjust the top margin */
+}

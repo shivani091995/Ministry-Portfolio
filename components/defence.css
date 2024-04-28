@@ -1,0 +1,106 @@
+.carousel .carousel-item img {
+  margin-top: 30px;
+  height: 450px; /* Adjust the height as needed */
+}
+
+.figure-container {
+  display: flex;
+  justify-content: space-around;
+}
+
+.figure-container .figure {
+  flex: 0 0 30%;
+  max-width: 30%;
+}
+
+.figure-container .figure img {
+  display: block;
+  margin: auto;
+  width: 80%; /* Increase the width of the images */
+  height: auto;
+  border: 2px solid black; /* Add black border to the images */
+}
+
+.half-underline {
+  position: relative;
+  color: red;
+}
+
+.half-underline::after {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 50%; /* Adjust this value to change the length of the underline */
+  border-bottom: 1px solid red;
+}
+
+.card-text-container {
+  display: flex;
+  justify-content: space-around;
+}
+
+.card-text-container .card {
+  width: 20rem; /* Increase the width of the cards */
+  margin-bottom: 20px; /* Add margin between cards */
+}
+
+.card-text-container .card img {
+  height: 250px; /* Increase the height of the images */
+  width: 100%;
+  border: 2px solid black; /* Add black border to the images */
+}
+
+.card-text-container .card-title {
+  font-weight: bold;
+  margin-top: 10px;
+}
+
+.card-text-container .card-text {
+  font-size: 14px;
+  margin-bottom: 10px;
+}
+.bg-image {
+  background-image: url('../assets/cruel-war-scenes-digital-painting.jpg'); /* Path to your background image */
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.card-text-container .card {
+  margin-bottom: 20px; /* Add margin between cards */
+}
+
+.card-text-container .card img {
+  height: 300px; /* Increase the height of the images */
+  width: 100%;
+  border: 2px solid black; /* Add black border to the images */
+}
+
+.figure-container {
+  display: flex;
+  justify-content: space-around;
+}
+
+.figure-container .figure {
+  flex: 0 0 30%;
+  max-width: 30%;
+}
+
+.half-underline {
+  position: relative;
+  color: red;
+}
+
+.half-underline::after {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 50%; /* Adjust this value to change the length of the underline */
+  border-bottom: 1px solid red;
+}
+
+.parah{
+  color:antiquewhite;
+  font-family: sans-serif;
+}

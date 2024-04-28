@@ -1,0 +1,23 @@
+
+.pcontainer {
+  height: 65vh;
+  padding: 18px;
+  background-color: #dba6a6;
+  margin: 12% 35% 0;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+/* Profile image */
+.profile-image {
+   max-width: 150px ;
+    width : 80% ;
+    height : auto ;
+    border-Radius: 50% ;
+}
+
+.profile-info-item {
+  margin: 10px 0;
+  font-size: 16px;
+}

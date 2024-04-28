@@ -1,0 +1,16 @@
+.quiz-table {
+    width: 100%;
+    border: none;
+  }
+  
+  .quiz-button {
+    margin: 5px;
+    font-size: 80%;
+    width: auto; /* Adjusted to fit the content */
+  }
+  
+  .submit-button {
+    margin-top: 10px;
+    width: 100%;
+  }
+  

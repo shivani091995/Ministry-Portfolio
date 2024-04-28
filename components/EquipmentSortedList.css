@@ -1,0 +1,132 @@
+/* EquipmentSortedList.css */
+
+body {
+    background-image: url('../assets/27683.jpg'); /* Adjust the path to your background image */
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+  }
+  
+  table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+  th.table-header {
+    background-color: #181D31; /* Dark blue color */
+    color: white; /* White text color */
+    padding: 10px; /* Adjust padding as needed */
+  }
+  
+  .sorting-dropdown,
+  .status-dropdown {
+    margin-bottom: 20px;
+  }
+  
+  .sorting-dropdown label,
+  .status-dropdown label {
+    display: block;
+    margin-bottom: 5px;
+  }
+  
+  .sorting-dropdown select,
+  .status-dropdown select {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: rgba(255, 255, 255, 0.5); /* Transparent white background */
+    backdrop-filter: blur(10px); /* Apply blur effect */
+  }
+  
+  .equipment-table-container {
+    background-color: rgba(255, 255, 255, 0.5); /* Transparent white background */
+    backdrop-filter: blur(10px); /* Apply blur effect */
+    border-radius: 10px;
+    padding: 20px;
+    overflow-x: auto;
+  }
+  
+  table.equipment-table {
+    border-collapse: collapse;
+    width: 100%;
+  }
+  
+  table.equipment-table th,
+  table.equipment-table td {
+    padding: 8px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+  }
+  
+  table.equipment-table tbody tr:nth-child(even) {
+    background-color: #f2f2f2;
+  }
+  
+  .status-active {
+    background-color: green; /* Green for active */
+    color: white;
+  }
+  
+  .status-expired {
+    background-color: red; /* Red for expired */
+    color: white;
+  }
+  
+  .status-maintenance-required {
+    background-color: yellow; /* Yellow for maintenance required */
+    color: black;
+  }
+  
+  .b2 {
+    background-color: #181D31;
+    color: #E6DDC4;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 5px;
+    margin-right: 10px;
+    
+  }
+
+  .btn1 {
+    background-color: #181D31;
+    color: #E6DDC4;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 5px;
+    margin-right: 10px;
+    
+  }
+
+  .view {
+    background-color: #181D31;
+    color: #E6DDC4;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 5px;
+    margin-right: 10px;
+    margin-left: 20px;
+    
+  }
+  
+  .btn:hover {
+    background-color: #0056b3;
+  }
+  
+  /* .btn-primary {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    cursor: pointer;
+    border-radius: 5px;
+  }
+  
+  .btn-primary:hover {
+    background-color: #0056b3;
+  }
+   */
